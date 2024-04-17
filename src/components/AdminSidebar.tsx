@@ -1,10 +1,10 @@
 
-import {Link, LinkProps, useLocation,Location} from "react-router-dom";
-import { RiCoupon3Fill, RiDashboardFill, RiShoppingBag3Fill } from 'react-icons/ri';
-import { AiFillFileText } from 'react-icons/ai';
-import { IoIosPeople } from 'react-icons/io';
 import { IconType } from "react-icons";
+import { AiFillFileText } from 'react-icons/ai';
 import { FaChartBar, FaChartLine, FaChartPie, FaGamepad, FaStopwatch } from "react-icons/fa";
+import { IoIosPeople } from 'react-icons/io';
+import { RiCoupon3Fill, RiDashboardFill, RiShoppingBag3Fill } from 'react-icons/ri';
+import { Link, Location, useLocation } from "react-router-dom";
 
 const AdminSidebar = () => {
 

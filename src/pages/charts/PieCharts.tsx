@@ -1,6 +1,6 @@
+import { categories } from "../../assets/data.json";
 import AdminSidebar from "../../components/AdminSidebar";
 import { DoughnutChart, PieChart } from "../../components/charts";
-import { categories } from "../../assets/data.json";
 
 const PieCharts = () => {
   return (

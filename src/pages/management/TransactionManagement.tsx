@@ -1,7 +1,8 @@
+
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import AdminSidebar from "../../components/AdminSidebar";
 import { OrderItemType, OrderType } from "../../types";
-import { Link } from "react-router-dom";
 
 const img =
   "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=804";
@@ -18,7 +19,7 @@ const orderItems: OrderItemType[] = [
 
 const TransactionManagement = () => {
   const [order, setOrder] = useState<OrderType>({
-    name: "Abhishek Singh",
+    name: "Aditya Srivastava",
     address: "77 Black Street",
     city: "Neyword",
     state: "Nevada",

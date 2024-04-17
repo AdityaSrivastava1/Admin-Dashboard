@@ -1,12 +1,12 @@
-import { BsSearch } from "react-icons/bs"
-import AdminSidebar from "../components/AdminSidebar"
-import { FaRegBell } from "react-icons/fa"
-import userImg from "../assets/userpic.png"
+import { BiMaleFemale } from "react-icons/bi";
+import { BsSearch } from "react-icons/bs";
+import { FaRegBell } from "react-icons/fa";
 import { HiTrendingDown, HiTrendingUp } from "react-icons/hi";
 import data from "../assets/data.json";
+import userImg from "../assets/userpic.png";
+import AdminSidebar from "../components/AdminSidebar";
+import Table from "../components/DashbaordTable";
 import { BarChart, DoughnutChart } from "../components/charts";
-import { BiMaleFemale } from "react-icons/bi";
-import Table from "../components/DashbaordTable"
 
 
 const Dashboard = () => {
@@ -65,8 +65,8 @@ color="rgb(76 0 255)"
         data_2={[200,444,343,556,778,455,190]}
         title_1="Revenue"
         title_2="Trasaction"
-        bgcolor_1="rgb(0,115,255)"
-        bg_color2="rgba(53,162,235,0.8)"
+        bgColor_1="rgb(0,115,255)"
+        bgColor_2="rgba(53,162,235,0.8)"
         />
       </div>
 
