@@ -1,17 +1,17 @@
-import { BiMaleFemale } from "react-icons/bi";
-import { BsSearch } from "react-icons/bs";
-import { FaRegBell } from "react-icons/fa";
+import { BsSearch } from "react-icons/bs"
+import AdminSidebar from "../components/AdminSidebar"
+import { FaRegBell } from "react-icons/fa"
+import userImg from "../assets/userpic.png"
 import { HiTrendingDown, HiTrendingUp } from "react-icons/hi";
 import data from "../assets/data.json";
-import userImg from "../assets/userpic.png";
-import AdminSidebar from "../components/AdminSidebar";
-import Table from "../components/DashbaordTable";
 import { BarChart, DoughnutChart } from "../components/charts";
+import { BiMaleFemale } from "react-icons/bi";
+import Table from "../components/DashbaordTable"
 
 
 const Dashboard = () => {
   return (
-    <div className="adminContainer">
+    <div className="admin-container">
       {/* Sidebar */}
         <AdminSidebar/> 
         <main className="dashboard">
