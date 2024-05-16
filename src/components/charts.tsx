@@ -12,7 +12,7 @@ import {
   PointElement,
   LineElement,
   Filler,
-} from "chart.js";
+} from "chart.js"; 
 import { Bar, Doughnut, Line, Pie } from "react-chartjs-2";
 
 ChartJS.register(
