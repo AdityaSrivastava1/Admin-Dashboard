@@ -86,6 +86,6 @@ return<div className={containerClassname}>
 }
 </div>
     };
-  }
+  } 
 
 export default TableHOC
