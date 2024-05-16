@@ -82,7 +82,7 @@ const Transaction = () => {
   );
 
   return (
-    <div className="adminContainer">
+    <div className="admin-container">
       {/* Sidebar */}
         <AdminSidebar/> 
         <main>{Table()}</main>
