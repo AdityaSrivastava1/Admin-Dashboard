@@ -1,8 +1,9 @@
-import { ReactElement, useCallback, useState } from "react";
-import { FaTrash } from "react-icons/fa";
-import { Column } from "react-table";
+import { ReactElement } from "react";
 import AdminSidebar from "../components/AdminSidebar";
+import { Column } from "react-table";
+import { useState, useCallback } from "react";
 import TableHOC from "../components/TableHOC";
+import { FaTrash } from "react-icons/fa";
 
 interface DataType {
   avatar: ReactElement;
@@ -101,7 +102,7 @@ const Customers = () => {
   );
 
   return (
-    <div className="adminContainer">
+    <div className="admin-container">
       <AdminSidebar />
       <main>{Table()}</main>
     </div>
