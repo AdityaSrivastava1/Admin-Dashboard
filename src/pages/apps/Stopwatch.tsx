@@ -36,7 +36,7 @@ const Stopwatch = () => {
   }, [isRunning]);
 
   return (
-    <div className="adminContainer">
+    <div className="admin-container">
       <AdminSidebar />
       <main className="dashboard-app-container">
         <h1>Stopwatch</h1>
