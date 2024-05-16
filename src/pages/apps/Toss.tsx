@@ -10,7 +10,7 @@ const Toss = () => {
   };
 
   return (
-    <div className="adminContainer">
+    <div className="admin-container">
       <AdminSidebar />
       <main className="dashboard-app-container">
         <h1>Toss</h1>
