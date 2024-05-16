@@ -36,7 +36,7 @@ const ProductManagement = () => {
     setPhoto(photoUpdate);
   };
   return (
-    <div className="adminContainer">
+    <div className="admin-container">
       <AdminSidebar />
       <main className="product-management">
         <section>
