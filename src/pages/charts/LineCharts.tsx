@@ -18,7 +18,7 @@ const months = [
 
 const LineCharts = () => {
   return (
-    <div className="adminContainer">
+    <div className="admin-container">
       <AdminSidebar />
       <main className="chart-container">
         <h1>Line Charts</h1>
